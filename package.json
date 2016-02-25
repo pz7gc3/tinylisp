@@ -1,5 +1,5 @@
 {
-  "name": "tinylisper",
+  "name": "tinylisp",
   "version": "0.0.1",
   "description": "A tiny lisp interpreter",
   "main": "sample.js",
@@ -8,5 +8,9 @@
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Johan Sundström",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
